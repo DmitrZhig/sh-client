@@ -1,0 +1,12 @@
+.styleSuccessInp {
+    color: green;
+    position: fixed;
+    margin-bottom: 135px;
+}
+
+.styleErrPasswordEdit {
+    color: red;
+    position: fixed;
+    margin-bottom: 85px;
+}
+

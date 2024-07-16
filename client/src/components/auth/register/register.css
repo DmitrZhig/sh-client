@@ -1,0 +1,105 @@
+.regLogForm,
+.regLogContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin: 0;
+  height: 100vh;
+}
+
+.regLogContainer {
+  background-image: url('./mainImg.jpg');
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.regInput {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  width: 500px;
+  font-size: 18px;
+}
+
+.regButton {
+  margin: 10px;
+  padding: 10px;
+  background-color: #366cd9;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 420px;
+  height: 50px;
+}
+
+.regButtonError {
+  margin: 10px;
+  padding: 10px;
+  background-color: #e04115c5;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 420px;
+  height: 50px;
+}
+
+.regButton:hover {
+  background-color: #18bf74;
+}
+
+.msgInfo {
+  color: red;
+  margin-top: 1%;
+  font-size: 25px;
+}
+
+.styleErrInpReg {
+  color: red;
+  position: fixed;
+  margin-bottom: 155px;
+}
+.keyWorldDiv {
+  width: 480px;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+}
+
+@media (max-width: 800px) {
+  .regLogForm {
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .regInput,
+  .regButton,
+  .regButtonError {
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    height: 8vh;
+    margin: 5px;
+  }
+  .keyWorldDiv {
+    width: 50vw;
+    text-align: center;
+    font-size: 10px;
+  }
+}

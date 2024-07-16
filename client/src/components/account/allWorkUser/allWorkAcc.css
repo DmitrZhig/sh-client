@@ -1,0 +1,100 @@
+.borderJobAcc {
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.767);
+}
+
+.infoJobAcc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainNameJob {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.dopInfaJob {
+  font-size: 16px;
+}
+.btnAccLike {
+  margin: 5px;
+  padding: 5px;
+  background-color: #366cd9;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 30%;
+}
+
+.btnAccLike:hover {
+  background-color: #18bf74;
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+  .mainNameJob {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .dopInfaJob {
+    font-size: 14px;
+  }
+  .borderJobAcc {
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .btnAccLike {
+    margin: 5px;
+    padding: 5px;
+    background-color: #366cd9;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 14px;
+    width: 30%;
+  }
+}
+
+@media (max-width: 800px) {
+  .mainNameJob {
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .dopInfaJob {
+    font-size: 12px;
+  }
+  .borderJobAcc {
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .infoJobAcc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnAccLike {
+    margin: 5px;
+    padding: 5px;
+    background-color: #366cd9;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 10px;
+    width: 90%;
+  }
+}

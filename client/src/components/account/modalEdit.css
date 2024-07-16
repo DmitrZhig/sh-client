@@ -1,0 +1,102 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  border-radius: 8px;
+  width: 70%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputUser {
+  width: 100%;
+  margin-bottom: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.formEditMaster {
+  display: flex;
+  flex-direction: column;
+  /* height: 300px; */
+  margin: 10%;
+  margin-right: -10%;
+  width: 100%;
+  align-items: center;
+}
+
+.previewImage {
+  width: 20vw;
+  max-height: 45vh;
+  border-radius: 30%;
+  margin-left: -10%;
+}
+
+.hmImage {
+  width: 70%;
+}
+
+.btnAcc {
+  margin: 10px;
+  padding: 10px;
+  background-color: #366cd9;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btnAcc:hover {
+  background-color: #18bf74;
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+  .modal {
+    width: 60vw;
+    height: 50vh;
+  }
+
+  .inputUser {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .modal {
+    width: 80vw;
+    height: 50vh;
+  }
+  .hmImage {
+    display: none;
+  }
+
+  .inputUser {
+    font-size: 12px;
+  }
+}

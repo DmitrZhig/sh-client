@@ -1,0 +1,137 @@
+.regLogForm,
+.logContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.logContainer {
+  background-image: url('./mainImg.jpg');
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.regLogHeader {
+  font-size: 32px;
+}
+
+.regLogForm {
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  height: auto;
+  padding: 15px;
+  box-shadow: 10px 5px 5px rgba(76, 75, 73, 0.945);
+  background-color: rgb(245, 222, 179);
+}
+
+.logInput {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  width: 500px;
+  font-size: 18px;
+}
+
+.loginButton,
+.secondaryButton {
+  margin: 10px;
+  padding: 10px;
+  background-color: #366cd9;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.loginButton {
+  width: 420px;
+  height: 50px;
+}
+
+.loginButtonError {
+  width: 420px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e04115c5;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.secondaryButton {
+  width: 200px;
+  height: 50px;
+}
+
+.loginButton:hover {
+  background-color: #18bf74;
+}
+
+.secondaryButton:hover {
+  background-color: #18bf74;
+}
+
+.styleErrInp {
+  color: red;
+  position: fixed;
+  margin-bottom: 125px;
+}
+
+.dopBtn {
+  display: flex;
+  justify-content: space-around;
+}
+.passMsg {
+  font-size: 18px;
+  color: red;
+}
+
+@media (max-width: 800px) {
+  .regLogForm {
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .logInput,
+  .loginButton,
+  .loginButtonError,
+  .secondaryButton {
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    height: 8vh;
+    margin: 5px;
+  }
+
+  .dopBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .passMsg {
+    font-size: 10px;
+    color: red;
+    width: 50vw;
+    text-align: center;
+  }
+  .regLogHeader {
+    font-size: 20px;
+  }
+}

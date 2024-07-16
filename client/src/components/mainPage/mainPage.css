@@ -1,0 +1,317 @@
+.main {
+  margin-top: 80px;
+}
+
+.borderJob {
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  border-radius: 25px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.767);
+}
+
+.allJobsInfo {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-family: Comic Sans MS;
+}
+
+.infoJob,
+.filterSortSearch,
+.mainFlexBox,
+.redBTN,
+.inputSearchKey {
+  display: flex;
+}
+
+.infoJob,
+.mainFlexBox,
+.redBTN {
+  justify-content: space-around;
+}
+
+.filterSortSearch {
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.imgSort {
+  width: 3vh;
+}
+.fullScreen {
+  display: block;
+}
+.mobileScreen {
+  display: none;
+}
+
+.sortDiv {
+  width: auto;
+  cursor: pointer;
+}
+
+.borderJob {
+  margin: 5px;
+  padding: 5px;
+}
+
+.inputSearchKey {
+  width: 70%;
+}
+
+.academicSubMain {
+  margin-right: 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+.searchInputMain {
+  width: 65%;
+  margin-right: 5px;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.posts {
+  width: 70%;
+}
+
+.readyJob {
+  margin-top: 15px;
+}
+
+.accessDanger {
+  color: rgb(39, 83, 241);
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btnMainOptions {
+  margin: 8px;
+  padding: 8px;
+  background-color: #366cd9;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 70%;
+}
+.btnMainOptionsDis {
+  margin: 8px;
+  padding: 8px;
+  background-color: #959799;
+  color: rgb(12, 1, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 70%;
+}
+
+.btnMainOptions:hover {
+  background-color: #18bf74;
+}
+
+.nameSubject {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.aboutJob,
+.infoJob {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.postForMobile {
+  display: none;
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+  .btnMainOptions {
+    margin: 5px;
+    padding: 5px;
+    background-color: #366cd9;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .btnMainOptionsDis {
+    margin: 5px;
+    padding: 5px;
+    background-color: #959799;
+    color: rgb(12, 1, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .nameSubject {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .aboutJob,
+  .infoJob {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .inputSearchKey {
+    width: 100%;
+  }
+  .searchInputMain {
+    font-size: 12px;
+  }
+  .academicSubMain {
+    width: 95%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .borderJob {
+    padding: 7px;
+  }
+  .accessDanger {
+    color: rgb(39, 83, 241);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .btnMainOptions {
+    margin: 2px;
+    padding: 5px;
+    background-color: #366cd9;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .btnMainOptionsDis {
+    margin: 2px;
+    padding: 5px;
+    background-color: #959799;
+    color: rgb(12, 1, 1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  .allJobsInfo {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: Comic Sans MS;
+  }
+
+  .posts {
+    width: 95%;
+  }
+
+  .flexMobileFilter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nameSubject {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .aboutJob,
+  .infoJob {
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #mobileInfo {
+    display: none;
+  }
+
+  .inputSearchKey {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .fullScreen,
+  .sortDiv {
+    display: none;
+  }
+  .mobileScreen {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .filterSortSearch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accessDanger {
+    color: rgb(39, 83, 241);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin: 0 auto;
+  }
+  .borderJob {
+    padding: 5px;
+  }
+
+  .searchInputMain {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .searchInputMain,
+  .boxFlex2,
+  .selectCategorMobile,
+  .academicSubMain,
+  .selectTypeDiv {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 20px;
+  }
+
+  .academicSubMain {
+    width: 100%;
+  }
+  .postForMobile {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
